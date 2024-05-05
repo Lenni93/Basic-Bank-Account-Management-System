@@ -78,7 +78,7 @@ def main():
             =======MENU=======
             [1] Check balance
             [2] Make a deposite
-            [3] withraw balance
+            [3] Withraw balance
             [4] Open a savings bank account
             [5] Exit
             """"")

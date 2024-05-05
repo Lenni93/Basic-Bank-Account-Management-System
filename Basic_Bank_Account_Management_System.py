@@ -55,7 +55,7 @@ class SavingsAccount(BankAccount):
         current_balance = super().return_balance()
         interest_earned = current_balance * (self.__interest_rate / 100)
         new_balance = interest_earned + current_balance
-        print(f"Interest earned:{interest_earned:.2f}. \nNew balance{new_balance:.2f} ")
+        print(f"Interest earned:{interest_earned:.2f}. \nNew balance:{new_balance:.2f} ")
         # ✳️ Write code to calculate the interest based on the current balance and interest rate
         # ✳️ Write code to add the calculated interest to the account balance
 
